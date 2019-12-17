@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm orm_2_0.xsd" version="2.0">
+    <package>
+        com.nfinity.example179.domain.model.Temp
+    </package>
+    <access>
+        PROPERTY
+    </access>
+    <entity class="Td1">
+        <table schema="test8" name="td1"/>
+        <attributes>
+            <id name="id">
+                <column name="id" column-definition="bigserial"/>
+            </id>
+        </attributes>
+    </entity>
+</entity-mappings>
